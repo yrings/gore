@@ -3,9 +3,9 @@ package test
 import (
 	"encoding/gob"
 	"fmt"
-	"gore/rpc/client"
-	"gore/rpc/common"
-	"gore/rpc/server"
+	"github.com/yrings/gore/rpc/client"
+	"github.com/yrings/gore/rpc/common"
+	"github.com/yrings/gore/rpc/server"
 	"net"
 	"sync"
 	"testing"

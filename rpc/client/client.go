@@ -2,7 +2,7 @@ package client
 
 import (
 	"fmt"
-	"gore/rpc/common"
+	"github.com/yrings/gore/rpc/common"
 	"net"
 	"reflect"
 )

@@ -2,9 +2,9 @@ package client
 
 import (
 	"fmt"
+	"gore/rpc/common"
 	"net"
 	"reflect"
-	"yrings-gore-rpc/common"
 )
 
 // 客户端只有函数原型，使用reflect.MakeFunc() 可以完成原型函数到函数的调用

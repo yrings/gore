@@ -1,3 +1,3 @@
-module github.com/yrings/gore
+module gore
 
 go 1.21.6

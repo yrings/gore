@@ -2,9 +2,9 @@ package server
 
 import (
 	"fmt"
+	"gore/rpc/common"
 	"net"
 	"reflect"
-	"yrings-gore-rpc/common"
 )
 
 type Server struct {

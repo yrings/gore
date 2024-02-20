@@ -3,12 +3,12 @@ package test
 import (
 	"encoding/gob"
 	"fmt"
+	"gore/rpc/client"
+	"gore/rpc/common"
+	"gore/rpc/server"
 	"net"
 	"sync"
 	"testing"
-	"yrings-gore-rpc/client"
-	"yrings-gore-rpc/common"
-	"yrings-gore-rpc/server"
 )
 
 func TestSession_ReadWriter(t *testing.T) {
